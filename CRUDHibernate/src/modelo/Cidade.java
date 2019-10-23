@@ -5,12 +5,21 @@
  */
 package modelo;
 
+import javax.inject.Named;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
 /**
  *
  * @author aluno
  */
+@Entity()
+@Table(name = "cidade")
 public class Cidade {
-
+    
+    @Id
+   // @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String nome;
     private Long idestado;

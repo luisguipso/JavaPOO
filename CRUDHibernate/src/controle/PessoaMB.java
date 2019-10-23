@@ -30,7 +30,7 @@ public class PessoaMB {
             comando.setString(3, pessoa.getRg());
             comando.setString(4, pessoa.getCpf());
             
-            comando.setInt(2, pessoa.getIdcidade());
+            comando.setLong(2, pessoa.getIdcidade());
             comando.executeUpdate();
             comando.close();
             conexao.close();
@@ -45,7 +45,7 @@ public class PessoaMB {
 
             PreparedStatement comando = conexao.prepareStatement("UPDATE pessoa SET nome = ?, idcidade = ?, rg = ?, cpf = ? WHERE id = ?");
             comando.setString(1, pessoa.getNome());
-            comando.setInt(2, pessoa.getIdcidade());
+            comando.setLong(2, pessoa.getIdcidade());
             comando.setString(3, pessoa.getRg());
             comando.setString(4, pessoa.getCpf());
             comando.setInt(5, pessoa.getId());
@@ -84,7 +84,7 @@ public class PessoaMB {
                 pessoa.setNome(rs.getString("nome"));
                 pessoa.setCpf(rs.getString("cpf"));
                 pessoa.setRg(rs.getString("rg"));
-                pessoa.setIdcidade(rs.getInt("idcidade"));
+                pessoa.setIdcidade(rs.getLong("idcidade"));
 
             }
         } catch (SQLException ex) {
@@ -106,7 +106,7 @@ public class PessoaMB {
                 pessoa.setNome(rs.getString("nome"));                
                 pessoa.setCpf(rs.getString("cpf"));
                 pessoa.setRg(rs.getString("rg"));
-                pessoa.setIdcidade(rs.getInt("idcidade"));
+                pessoa.setIdcidade(rs.getLong("idcidade"));
                 
                 pessoas.add(pessoa);
             }

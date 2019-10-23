@@ -3,14 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/aluno/Downloads/CRUDBasico-master/src/modelo/Cidade.java</file>
-            <file>file:/home/aluno/Downloads/CRUDBasico-master/src/controle/EstadoMB.java</file>
-            <file>file:/home/aluno/Downloads/CRUDBasico-master/src/modelo/Estado.java</file>
-            <file>file:/home/aluno/Downloads/CRUDBasico-master/src/controle/PessoaMB.java</file>
-            <file>file:/home/aluno/Downloads/CRUDBasico-master/src/modelo/Pessoa.java</file>
-            <file>file:/home/aluno/Downloads/CRUDBasico-master/src/visao/CadastroEstado.java</file>
-            <file>file:/home/aluno/Downloads/CRUDBasico-master/src/visao/CadastroCidade.java</file>
-            <file>file:/home/aluno/Downloads/CRUDBasico-master/src/controle/CidadeMB.java</file>
+            <file>file:/home/aluno/Área%20de%20Trabalho/JavaPOO/CRUDHibernate/src/dao/GenericDAO.java</file>
+            <file>file:/home/aluno/Área%20de%20Trabalho/JavaPOO/CRUDHibernate/src/modelo/Cidade.java</file>
+            <file>file:/home/aluno/Área%20de%20Trabalho/JavaPOO/CRUDHibernate/src/modelo/Banco.java</file>
+            <file>file:/home/aluno/Área%20de%20Trabalho/JavaPOO/CRUDHibernate/src/visao/CadastroCidade.java</file>
+            <file>file:/home/aluno/Área%20de%20Trabalho/JavaPOO/CRUDHibernate/src/META-INF/beans.xml</file>
+            <file>file:/home/aluno/Área%20de%20Trabalho/JavaPOO/CRUDHibernate/src/controle/PessoaMB.java</file>
+            <file>file:/home/aluno/Área%20de%20Trabalho/JavaPOO/CRUDHibernate/src/util/Transacional.java</file>
+            <file>file:/home/aluno/Área%20de%20Trabalho/JavaPOO/CRUDHibernate/src/util/EntityManagerProducer.java</file>
+            <file>file:/home/aluno/Área%20de%20Trabalho/JavaPOO/CRUDHibernate/src/visao/MenuPrincipal.java</file>
+            <file>file:/home/aluno/Área%20de%20Trabalho/JavaPOO/CRUDHibernate/src/controle/CidadeMB.java</file>
+            <file>file:/home/aluno/Área%20de%20Trabalho/JavaPOO/CRUDHibernate/src/META-INF/persistence.xml</file>
         </group>
     </open-files>
 </project-private>

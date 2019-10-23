@@ -285,7 +285,7 @@ public class CadastroCidade extends javax.swing.JFrame {
     }
 
     private void preencherComboEstados() {
-        CidadeMB cidade = new CidadeMB();;
+        CidadeMB cidade = new CidadeMB();
         List<Estado> estados = new ArrayList<Estado>();
         estados = cidade.preencherComboEstados();
 
